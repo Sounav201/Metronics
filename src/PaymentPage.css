@@ -1,0 +1,88 @@
+.Payment {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+}
+
+
+.Payment-Container >h1{
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    background-color: teal;
+    border-bottom: 1px solid lightgray;
+    color: white;
+}
+
+.Payment-Container >h1 a {
+    text-decoration: none;
+    color:yellow;
+}
+
+.Payment-Section{
+    display: flex;
+    padding: 20px;
+    margin: 0 25px;
+    border-bottom: 1px solid lightgray;
+}
+
+.Payment-Title{
+    flex:0.4;
+}
+
+.Payment-Address, .Payment-items{
+    flex: 0.8;
+}
+
+.Payment-Details{
+    flex: 1;
+    display: flex;
+    margin: 10px;
+}
+
+.Payment-Details > button{
+     
+    margin-left: 50px;
+    margin-bottom: 10px;
+    flex: 0.5;
+    padding: 7px;
+    background: #fa5818;
+    border: 1px solid;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.Payment-btn:hover{
+    background-color: #e97547;
+
+}
+
+
+@media(max-width:415px)
+{
+    .Payment-Title{
+        flex: 0.6;
+    }
+
+    .Payment-Details{
+        flex: 0.6;
+    }
+    
+.Payment-Address, .Payment-items{
+    flex: 0.3;
+}
+
+
+
+.Payment-Details > button{
+     
+    margin-left: 30px;
+    margin-bottom: 10px;
+    flex: 0.4;
+    padding: 3px;
+    background: #fa5818;
+    border: 1px solid;
+    font-size: 9px;
+
+}
+}
+

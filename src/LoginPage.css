@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.Login{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #360033;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.Login >img{
+    
+}
+.Login-logo{
+    margin:auto ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    
+    object-fit: contain;
+}
+
+
+.Login-container{
+    height: fit-content;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    padding: 20px;
+    border: 1px solid rgb(243, 151, 30);
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.Login-container >h1{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.Login-container>form >h5 {
+    margin-bottom: 5px;
+
+}
+
+.Login-container > form > input {
+    height:30px;
+    margin-bottom: 10px;
+    background-color: wheat;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Login-container > p {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+
+.Login-container>button{
+}    
+
+.Login-SignIn{
+    background-color: #fa5818;
+   box-shadow: #111;
+    margin-top: 10px;
+    
+    border-color: #e68c38 #e27611 #ce6017;
+    padding: 5px;
+    
+    
+    cursor: pointer;
+    color: #111; 
+    width: 100%;
+}
+
+.Login-container>label{
+    font-size: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.Login-Create{
+    border-radius: 2px;
+    width: 70%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #e27611;
+    display:inline-block;        
+    margin:0 auto;
+    cursor: pointer;
+    background-color: #0b8793;
+}
+
+
+.Login-SignIn:hover{
+    background-color: #f7753e;
+    
+}
+
+.Login-Create:hover{
+    background-color: #30d0df ;
+}
