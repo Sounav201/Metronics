@@ -50,7 +50,8 @@ function PaymentPage() {
            { alert('RazorPay SDK failed to load. Please check your internet connection. ')
             return 
            }
-        
+
+        //Please start the local server to make dummy payments (In the terminal go to server folder and type node/nodemon server.js)
         const data= await fetch('http://localhost:5000/razorpay' , {
             method: 'POST',
             headers: {
@@ -98,8 +99,6 @@ function PaymentPage() {
         history.replace('/orders')
     }
 
-    //Key id : rzp_test_cOFU7o9A0jtiZo
-    //Key secret: WDrNVCSxOAjiqkdnOD5fvFBH
 
    
 

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
 
+
+
 .Checkout{
     display: flex;
     padding: 20px;
@@ -25,4 +27,11 @@
     list-style: none;
 }
 
+
+    @media(max-width:768px){
+        .Checkout-right{
+            display: contents;
+
+        }
+    }
 

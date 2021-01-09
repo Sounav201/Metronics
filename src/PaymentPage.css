@@ -59,6 +59,11 @@
 
 @media(max-width:415px)
 {
+    .Payment-Container{
+        padding-bottom: 30px;
+        margin-top: 10px;
+    }
+
     .Payment-Title{
         flex: 0.6;
     }
@@ -79,6 +84,7 @@
     margin-bottom: 10px;
     flex: 0.4;
     padding: 3px;
+    padding-bottom: 10px;
     background: #fa5818;
     border: 1px solid;
     font-size: 9px;

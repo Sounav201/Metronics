@@ -80,3 +80,56 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
     margin-left: 10px;
     margin-right: 10px;
 }
+
+@media(max-width:415px){
+
+
+    .header-logo{
+        
+        width: 50px;
+        object-fit: contain;
+
+    }
+
+
+
+.header{
+    width: 100%;
+    min-width:590px;
+    
+}
+
+.header-center{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-radius: 24px;
+}
+
+    
+    
+.header-searchbar{
+    height:10px;
+    width: 100%;
+
+}
+
+.header-element-1{
+    font-size: 0.4rem;
+}
+
+.header-element-2{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.header-center{
+    display: flex;
+    
+    width: 100%;
+    align-items: center;
+    border-radius: 24px;
+}
+
+
+
+}
