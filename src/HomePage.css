@@ -26,17 +26,20 @@ min-width: 475px;
 }
 
 
-@media(max-width:678px){
-    .Home{
-        
-    width:100%;
-    }
-    }
-    
-    @media(min-width:380px){
-        body{
+
+    @media(max-width: 768px)
+    {
+        .home-row{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .home-image{
+            object-fit: contain;
+            height: 15%;
+        } 
+        .Home{
             width: 100%;
         }
-    }
-    
+    }  
     

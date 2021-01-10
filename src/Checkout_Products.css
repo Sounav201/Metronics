@@ -41,3 +41,18 @@
     font-size: 18px;
     font-weight: 800;
 }
+@media(max-width: 415px)
+{
+    .Checkout-product-title
+    {
+        font-size: 2.2rem;
+    }
+    .Checkout-product-info
+    {
+        font-size: 1.8rem;
+    }
+    .Checkout-product
+    {
+        margin-bottom: 30px;
+    }
+}

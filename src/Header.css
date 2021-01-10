@@ -81,7 +81,7 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
     margin-right: 10px;
 }
 
-@media(max-width:415px){
+@media(max-width:450px){
 
 
     .header-logo{
@@ -90,13 +90,11 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
         object-fit: contain;
 
     }
-
-
-
+    
 .header{
     width: 100%;
     min-width:590px;
-    
+    height: 90px;
 }
 
 .header-center{
@@ -115,11 +113,11 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
 }
 
 .header-element-1{
-    font-size: 0.4rem;
+    font-size: 1rem;
 }
 
 .header-element-2{
-    font-size: 0.7rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 .header-center{
