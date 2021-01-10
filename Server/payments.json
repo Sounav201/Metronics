@@ -1,0 +1,58 @@
+{
+    "entity": "event",
+    "account_id": "acc_GHX4ibn8ND0UWR",
+    "event": "payment.captured",
+    "contains": [
+        "payment"
+    ],
+    "payload": {
+        "payment": {
+            "entity": {
+                "id": "pay_GHzsPGCyjqTQVC",
+                "entity": "payment",
+                "amount": 2799900,
+                "currency": "INR",
+                "status": "captured",
+                "order_id": "order_GHzrq80wjvEBsb",
+                "invoice_id": null,
+                "international": false,
+                "method": "card",
+                "amount_refunded": 0,
+                "refund_status": null,
+                "captured": true,
+                "description": "Your Payments",
+                "card_id": "card_GHzsPLvcmT7rk5",
+                "card": {
+                    "id": "card_GHzsPLvcmT7rk5",
+                    "entity": "card",
+                    "name": "Souvik",
+                    "last4": "1111",
+                    "network": "Visa",
+                    "type": "debit",
+                    "issuer": null,
+                    "international": false,
+                    "emi": false,
+                    "sub_type": "consumer"
+                },
+                "bank": null,
+                "wallet": null,
+                "vpa": null,
+                "email": "adhasufas@gmail.com",
+                "contact": "+911234557684",
+                "notes": [],
+                "fee": 66078,
+                "tax": 10080,
+                "error_code": null,
+                "error_description": null,
+                "error_source": null,
+                "error_step": null,
+                "error_reason": null,
+                "acquirer_data": {
+                    "auth_code": "436940"
+                },
+                "created_at": 1609057475
+            }
+        }
+    },
+    "created_at": 1609057533
+}
