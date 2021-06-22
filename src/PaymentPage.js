@@ -63,7 +63,6 @@ function PaymentPage() {
             .then(res =>  res.json()
             )
             
-            console.log("ME DATA : ",data)
            
         const options = {
             key: 'rzp_test_cOFU7o9A0jtiZo', // Enter the Key ID generated from the Dashboard

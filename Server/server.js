@@ -53,7 +53,6 @@ app.post('/verification' , (req,res) =>{
 
 app.post('/razorpay' ,async(req,res) => {
    
-    console.log("This is it " ,req.body);
     console.log("Required amount  : " , req.body.amount)
 
     const payment_capture=1;
